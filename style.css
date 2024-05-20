@@ -137,10 +137,113 @@ main{
                                 cursor: pointer;
                             }
 
-    .contenedorFormulario{
+    .sectionFormulario{
         width: 40%;
-        border: solid red;
-    }
+        /* border: solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+        .contenedorFormulario{
+            /* border: solid green; */
+            width: 25vw;
+            height: 90vh;
+        }
+
+            .tituloFormulario{
+                display: flex;
+                /* border: solid yellow; */
+                height: 10%;
+                width: 100%;
+            }
+
+                .titleFormulario{
+                    display: flex;
+                    justify-content: center;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 32px;
+                    font-family: "Chakra Petch", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    /* border: solid red; */
+                    width: 100%;
+                    
+            }
+
+            form{
+                display: flex;
+                /* border: solid red; */
+                height: 50%;
+                flex-direction: column;
+                align-items: center;
+                /* justify-content: center; */
+                padding-top: 20px;
+            }
+
+                input{
+                    width: 80%;
+                    border: solid 3px #03318C;
+                    height: 10%;
+                    border-radius: 30px;
+                    margin-bottom: 35px;
+                    padding-left: 10px;
+                }
+
+                input::placeholder{
+                    /* padding-left: 10px; */
+                    font-family: "Chakra Petch", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: #03318C;
+                    font-weight: bold;
+                }
+        
+                    .botones{
+                        /* border: solid red; */
+                        width: 80%;
+                        height: 15%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+
+                        button{
+                            border: solid #03318C;
+                            width: 47%;
+                            height: 83%;
+                            border-radius: 17px;
+                            cursor: pointer;
+                        }
+
+                        button[type="submit"]{
+                            background: #03318C;
+                            color: white;
+                            font-family: "Chakra Petch", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: large;
+                            font-weight: bold;
+                        }
+
+                        button[type="submit"]:hover{
+                            background: #043ba8;
+                        }
+
+                        button[type="reset"]{
+                            background: #FFFFFF;
+                            color: #03318C;
+                            font-family: "Chakra Petch", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: large;
+                            font-weight: bold;
+                        }
+
+                        button[type="reset"]:hover{
+                            background: #fffcfc;
+                        }
 
 footer{
      /* position: fixed; */
