@@ -1,0 +1,10 @@
+{
+    "productos":[
+        {
+            "nombre":"captain America",
+            "precio": "10",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.WEBP",
+            "id":1
+        }
+    ]
+}
