@@ -1,10 +1,10 @@
 {
-    "productos":[
-        {
-            "nombre":"captain America",
-            "precio": "10",
-            "imagen": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.WEBP",
-            "id":1
-        }
-    ]
+  "productos": [
+    {
+      "id": "75a7",
+      "nombre": "Gameboy",
+      "precio": "50",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkcHnB-bi65jZKeD9VBU2U0p-P32Zx-CH6Zg&usqp=CAU"
+    }
+  ]
 }
